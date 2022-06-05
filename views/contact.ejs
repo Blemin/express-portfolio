@@ -1,0 +1,35 @@
+<%- include('partials/header.ejs') %>
+
+<%- include('partials/main_nav.ejs')  %>
+
+<h2 class="wel7">MY CONTACT INFO</h2>
+<div class="container div11">
+    <div class="input1">
+        <label for="fn">First Name</label>
+        <br>
+        <input type="text" name="fname" placeholder="First Name">
+        <br>
+        <label for="ln">Last Name</label>
+        <br>
+        <input type="text" name="lname" placeholder="Last Name">
+        <br>
+        <label for="email">Phone no</label>
+        <br>
+        <input type="text" name="email" placeholder="Type Your phone no here">
+        <br>
+        <label for="message">Chat with me</label>
+        <br>
+        <textarea style="width: 500px; " name="message" placeholder="Tell Me Something..."></textarea>
+        <br>
+        <button type="button" class="btn btn-dark" onclick="location.href='home'" style=" margin-top: 10px;">Submit</button>       
+    </div>
+    <div class="panel panel1">
+        <p class="details"> my mail ID: <a href="mailto:evanjalinbabu@gamil.com">evanjalinbabu@gmail.com</a><br>my phone no: (647)-333-8038</p>
+    </div>
+
+</div>
+
+
+<%- include('partials/bottom_nav.ejs')  %> 
+  
+<%- include('partials/footer.ejs')  %> 
